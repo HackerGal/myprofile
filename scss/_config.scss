@@ -1,0 +1,19 @@
+//Variables
+$website-width: 1280px;
+$main-color:#a6c4b1;
+$light-color: #c5e4d0;
+$medium-color:#c4a6b9;
+$dark-color: #000000;
+$bg-image: url('../img/pexels-life-of-pix-7974.jpg');
+// $bg-image: url('../img/pexels-nick-demou-2473183.jpg');
+// $bg-image: url('../img/pexels-jéshoots-238118.jpg');
+// $bg-image: url('../img/showcase.jpg');
+
+// Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
