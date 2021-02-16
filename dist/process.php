@@ -14,4 +14,4 @@ if (isset($_POST['email'])) {
   header('Location: http://melzy.co.za/success.html');
   echo "Thank you $_GET["name"]";
   echo "Thank You!" . " -" . "<a href='form.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
-}?>
+}
