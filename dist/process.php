@@ -21,7 +21,7 @@
   $phone = $_POST['phone'];
   $message = $_POST['message'];
   $subject = $_POST['subject'];
-  $formcontent=" From: $name \n Phone: $phone \n Call Back: $call \n Website: $website \n Priority: $priority \n Type: $type \n Message: $message";
+  $formcontent=" From: $name \n Phone: $phone \n Call Back: $call \n Message: $message";
   $recipient = "admin@melzy.co.za";
   $subject = "Contact Form";
   $mailheader = "From: $email \r\n";
