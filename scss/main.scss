@@ -283,8 +283,10 @@ img {
   &-b {
     .contact-info {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 2fr);
+      // grid-template-columns: auto auto;
       text-align: center;
+      // grid-gap: 10px;
     }
   }
 
