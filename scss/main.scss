@@ -104,6 +104,7 @@ img {
     background: $bg-image no-repeat 20% 30% / cover;
     height: 5.5rem;
     border-bottom: 3px solid $main-color;
+    color: #fff;
   }
 }
 
@@ -277,16 +278,17 @@ img {
 
     button[type='submit'] {
       width: 50%;
+      // background: $light-color;
     }
   }
 
   &-b {
     .contact-info {
       display: grid;
-      grid-template-columns: repeat(2, 2fr);
-      // grid-template-columns: auto auto;
+      // grid-template-columns: repeat(2, 2fr);
+      grid-template-columns: auto auto;
       text-align: center;
-      // grid-gap: 10px;
+      grid-gap: 10px;
     }
   }
 

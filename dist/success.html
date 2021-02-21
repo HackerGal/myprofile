@@ -23,7 +23,7 @@
 </head>
 <body>
   <!-- Header -->
-  <header id="header-home">
+  <header id="header-inner">
     <div class="container">
       <nav id="main-nav">
         <h1>M | M</h1>
@@ -35,10 +35,13 @@
         </ul>
       </nav>
       <div class="header-content">
-        <h1>
-          <!-- <?php echo $_GET["name"]; ?> -->
-          Thank you for your email.
-          <!-- <?php echo "Thank you " . $_GET['name'] ; ?> -->
+        <h1 action="process.php">
+          Thank you for your email <?php echo "Thank you $_GET["name"]"; ?>
+          <!-- <span
+            class="txt-type"
+            data-wait="3000"
+            data-words='["<?php echo $_GET["name"]; ?>"]'
+          ></span> -->
         </h1>
         <!-- <p class="lead">
           I specialize in Web Development
@@ -54,15 +57,14 @@
         <h1>Yay, thank you for you email!</h1>
         <p>I'll reply to you soon.</p>
       </div>
-
     </section> -->
-    <section id="success" class="bg-primary py-3 text-center">
-      <div class="container">
-          <h1 class="l-heading">I will get back to you soon.</h2>
-            <p class="lead"></p>
-            <a href="index.html">Go Back</a>
+    <section id="contact-c" class="bg-primary py-4 text-center">
+      <div class="container"><br><br>
+          <h1 class="l-heading">Thank You For Your Submission</h2>
+            <p class="lead">We will get back to you soon</p>
+            <a href="index.html">Go Back</a><br><br><br><br><br>
       </div>
-  </section>
+    </section>
     <!-- Footer -->
     <footer id="main-footer">
       <div class="footer-content container">

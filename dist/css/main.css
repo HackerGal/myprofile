@@ -229,7 +229,8 @@ img {
 #header-inner {
   background: url("../img/pexels-life-of-pix-7974.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
-  border-bottom: 3px solid #a6c4b1; }
+  border-bottom: 3px solid #a6c4b1;
+  color: #fff;}
 
 #home-a .specials {
   margin-top: 3rem;
@@ -318,7 +319,9 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: 'name email' 'subject phone' 'message message';
+  grid-template-areas: 'name email'
+ 'subject phone'
+ 'message message';
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
@@ -383,11 +386,19 @@ img {
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'aw1' 'aw2' 'aw3'; }
+    grid-template-areas: 'bioimage'
+ 'bio'
+ 'aw1'
+ 'aw2'
+ 'aw3'; }
   #about-c {
     display: none; }
   #contact-a .text-fields {
-    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+    grid-template-areas: 'name'
+ 'subject'
+ 'email'
+ 'phone'
+ 'message'; }
   #contact-c h1 {
     font-size: 2rem; }
   #main-footer {
